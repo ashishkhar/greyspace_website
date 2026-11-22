@@ -1,175 +1,109 @@
-# greyspace_website
+# greyspaces
 
-Grey Spaces studio site (`studiogreyspaces.com`). Next.js app, PM2 on port 3005.
+Architecture and interiors. Calm, light-filled spaces, built to last.
 
-Everything needed to rebuild and route this site lives in this folder:
+**Live site:** [studiogreyspaces.com](https://studiogreyspaces.com) · [Instagram](https://www.instagram.com/greyspacesstudio) · [mail@studiogreyspaces.com](mailto:mail@studiogreyspaces.com)
 
-| File | Role |
-| --- | --- |
-| `ecosystem.config.cjs` | PM2 app `moodboard`, `npm run start -- -p 3005` |
-| `nginx-studiogreyspaces.conf` | Nginx site: `studiogreyspaces.com` → `127.0.0.1:3005` |
-| `traefik-studiogreyspaces.yml` | Traefik file-provider route (HTTPS + HTTP→HTTPS) for the same upstream |
-| `.env.example` | Env vars to copy into `.env.local` (do not commit secrets) |
-| `.env.production` | Public site URL |
-| `data/site.json`, `data/boards.json` | Live site copy and moodboards |
-| `public/uploads/` | Board and site images |
-
-Rebuild:
-
-```
-cp .env.example .env.local   # then fill ADMIN_USERNAME, ADMIN_PASSWORD, ADMIN_SESSION_SECRET
-npm install
-npm run build
-pm2 start ecosystem.config.cjs
-```
-
-Point DNS `studiogreyspaces.com` at the host, then either install `nginx-studiogreyspaces.conf` or drop `traefik-studiogreyspaces.yml` into Traefik's dynamic directory.
-
-# Next.js + Tailwind CSS + Shopify Starter
-
-<div align="center">
-<img src="https://github.com/btahir/next-shopify-starter/blob/main/public/images/demo-store.gif">
 <p align="center">
-  <a href="https://doggystickers.vercel.app/">Live Demo</a> •
-  <a href="https://nextails.com/">See more starters</a> •
-  <a href="https://twitter.com/deepwhitman">Follow me on Twitter</a>
+  <a href="https://studiogreyspaces.com">
+    <img src="public/uploads/SITE/1795282660452-Gemini_Generated_Image_b4che0b4che0b4ch.webp" alt="Grey Spaces studio" width="920">
+  </a>
 </p>
-</div>
 
-This is a fully functional eCommerce store that uses Next.js + Tailwind CSS in the front end and leverages the Shopify Storefront API to interact with your Shopify backend. You can see a Live Demo [here](https://doggystickers.vercel.app/ "Shopify store").
+<p align="center">
+  <a href="https://studiogreyspaces.com"><strong>Open the site</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://studiogreyspaces.com/moodboard">Moodboards</a>
+  &nbsp;·&nbsp;
+  <a href="https://studiogreyspaces.com/board/GYM-01">Gold’s Gym board</a>
+</p>
 
-We use GraphQL to query our Shopify data and store the cart information in localStorage to persist user session. Finally - we use Shopify Checkout to let the user
-purchase the items. You can see this play out in the example store. Yes - the store is functional and you can buy the stickers. :smiley:
+Grey Spaces is a design studio for architecture and interiors. This repository is the public website and the client moodboard tool: a Next.js app that serves [studiogreyspaces.com](https://studiogreyspaces.com), with the copy, portfolio, and boards stored in this folder.
 
-## High Performance
+From the first sketch to the final finish, one team carries a project — balancing beauty, budget, and the way people actually live.
 
-<table align="center">
-  <thead>
-    <tr>
-      <td>Desktop</td>
-      <td>Mobile</td>
-    <tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td valign="top"><img width="300" height="300" src="https://github.com/btahir/next-shopify-starter/blob/main/public/images/desktop-lighthouse.png"/></td>
-    <td valign="top"><img width="300" height="300" src="https://github.com/btahir/next-shopify-starter/blob/main/public/images/mobile-lighthouse.png"/></td>
-  </tr>
-  </tbody>
-</table>
+## Portfolio
 
-## Mobile Responsive
+A few of the spaces on the site. Each image links to [studiogreyspaces.com](https://studiogreyspaces.com).
 
-<table align="center">
-  <thead>
-    <tr>
-      <td>Listings</td>
-      <td>Cart</td>
-    <tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td valign="top"><img width="300" height="300" src="https://github.com/btahir/next-shopify-starter/blob/main/public/images/responsive-main.gif"/></td>
-    <td valign="top"><img width="300" height="300" src="https://github.com/btahir/next-shopify-starter/blob/main/public/images/responsive-cart.gif"/></td>
-  </tr>
-  </tbody>
-</table>
+| [Gold’s Gym, Hyderabad](https://studiogreyspaces.com) | [Residence, Hapur](https://studiogreyspaces.com) |
+| --- | --- |
+| <a href="https://studiogreyspaces.com"><img src="public/uploads/SITE/1795282799356-Enscape_2026-05-08-01-23-28_GYM4.webp" alt="Gold's Gym, Hyderabad — interiors, 2026" width="440"></a> | <a href="https://studiogreyspaces.com"><img src="public/uploads/SITE/1795283017962-Gemini_Generated_Image_5w1awb5w1awb5w1a-1.webp" alt="Residence, Hapur — architecture and interiors, 2026" width="440"></a> |
+| Interiors · Hyderabad · 2026 | Architecture and interiors · Hapur · 2026 |
 
+| [Basi Pilates](https://studiogreyspaces.com) | [B.P. colony residence, Delhi](https://studiogreyspaces.com) |
+| --- | --- |
+| <a href="https://studiogreyspaces.com"><img src="public/uploads/SITE/1795283135273-Untitled-design-2.jpg" alt="Basi Pilates — interiors, 2026" width="440"></a> | <a href="https://studiogreyspaces.com"><img src="public/uploads/SITE/1795283311857-Enscape_2026-03-09-03-23-16_1.webp" alt="B.P. colony residence, Delhi — 2024" width="440"></a> |
+| Interiors · 2026 | Architecture and interiors · Delhi · 2024 |
 
-## The Tech
+## Moodboards
 
-* Next.js + Tailwind CSS
-* GraphQL
-* localStorage to persist user session
-* Shopify
-* Vercel
-* Font Awesome Icons
-* Josefin Sans Google Font
+Clients open a private board, walk through the views, and leave a reaction or a note. Sample boards:
 
-## How to use
+<p align="center">
+  <a href="https://studiogreyspaces.com/board/GYM-01">
+    <img src="public/uploads/GYM-01/1795285036958-Enscape_2026-05-08-01-23-28_GYM-NIGHT-1-.png" alt="Gold's Gym night view on the GYM-01 moodboard" width="920">
+  </a>
+</p>
 
-By default, the store is set to query and show all products in one collection. 
-You can extend this to query multiple collections or your whole store.
+<p align="center">
+  <a href="https://studiogreyspaces.com/board/GYM-01">Gold’s Gym board (GYM-01)</a>
+  &nbsp;·&nbsp;
+  <a href="https://studiogreyspaces.com/board/SAMPLE">Sample board</a>
+</p>
 
-#### A note on pagination in the GraphQL queries
+## What the site does
 
-The graphQL queries are all hardcoded to pull the maximum number of products/variants/images which
-is set to 250 by Shopify. I did this to keep things simple. Pagination would have made the queries complicated
-and 250 items is enough for most use cases.
+- Marketing home: studio story, services, portfolio, process, and an inquiry form
+- Client moodboards at `/board` and `/board/[code]`, with likes and comments
+- Admin at `/admin` for site copy, boards, uploads, inquiries, and feedback
+- Content lives in `data/site.json`, `data/boards.json`, and `public/uploads/`
 
-If you require pagination you will have to keep track of the [cursor](https://youtu.be/S37WsC8GzSA "graphql pagination") field and keep querying the data until you fetch all items.
+## Stack
 
-### Setup Environment variables
+Next.js 16, React 19, Tailwind CSS, and Three.js for the home scene. Production runs under PM2 on port 3005. HTTPS is terminated by Traefik, with an nginx config for the same upstream.
 
-Create a .env.local file in the root directory. You need to add these 4 variables:
+## Run it locally
 
-```
-NEXT_PUBLIC_SHOPIFY_STORE_FRONT_ACCESS_TOKEN=
-NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN=
-NEXT_PUBLIC_SHOPIFY_COLLECTION=
-NEXT_PUBLIC_LOCAL_STORAGE_NAME=
+```bash
+cp .env.example .env.local
+# Fill ADMIN_USERNAME, ADMIN_PASSWORD, and ADMIN_SESSION_SECRET in .env.local
+npm install
+npm run dev
 ```
 
-The NEXT_PUBLIC_SHOPIFY_STORE_FRONT_ACCESS_TOKEN and NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN (it will be something like DOMAIN_NAME.myshopify.com) are needed to access
-the Shopify Storefront API (make sure you have set it up in your Shopify store. See [docs](https://shopify.dev/docs/storefront-api/getting-started "Shopify store") for more information.
+Open [http://localhost:3000](http://localhost:3000). Admin login is [http://localhost:3000/admin/login](http://localhost:3000/admin/login).
 
-NEXT_PUBLIC_SHOPIFY_COLLECTION is the name of the collection you want to pull in and NEXT_PUBLIC_LOCAL_STORAGE_NAME is the name of the key
-your users will store their cart information under. The exact name isn't that important although I suggest you make it unique so
-it is less likely to clash with other stored objects. Something like yourStoreNameShopifyStore where yourStoreName is your shopify store name will suffice.
+Production build:
 
-### Installation
-
-Change into the project directory and run the following command:
-
-```
-yarn && yarn dev
+```bash
+npm run build
+npm run start -- -p 3005
 ```
 
-### Update Site Metadata
+Or with PM2, from this directory: `pm2 start ecosystem.config.cjs`.
 
-You can update your site metadata in the next.config.js file. 
+## Deploy
+
+| File | What it does |
+| --- | --- |
+| `ecosystem.config.cjs` | PM2 app `moodboard`, listening on port 3005 |
+| `nginx-studiogreyspaces.conf` | `studiogreyspaces.com` → `127.0.0.1:3005` |
+| `traefik-studiogreyspaces.yml` | Traefik route: HTTPS plus HTTP → HTTPS, same upstream |
+| `.env.example` | Variables to copy into `.env.local` |
+| `.env.production` | Public site URL |
+
+Point the DNS A record for `studiogreyspaces.com` at the host, then either install the nginx file or drop the Traefik file into Traefik’s dynamic directory.
+
+Do not commit `.env.local` or `data/inquiries.json`. Those hold the admin secret and customer contact details.
+
+## Layout
 
 ```
-env: {
-  siteTitle: 'Your Company',
-  siteDescription: 'Your company description.',
-  siteKeywords: 'your company keywords',
-  siteUrl: 'https://doggystickers.xyz',
-  siteImagePreviewUrl: '/images/main.jpg',
-  twitterHandle: '@your_handle'
-} 
+app/                 pages and API routes
+components/          home, boards, admin
+data/site.json       homepage copy and portfolio
+data/boards.json     moodboards
+public/uploads/      studio, portfolio, and board images
+lib/                 auth, storage, site schema
 ```
-
-### Update Colors
-
-You can update the color palette in tailwind.config.js file.
-
-```
-colors: {
-  palette: {
-    lighter: '',
-    light: '',
-    primary: '',
-    dark: '',
-  },
-},
-```
-### Update Progressive Web App (PWA) data
-
-Update the manifest.json file and the icons under the public/images/icons folder.
-
-You can use free tools online such as https://realfavicongenerator.net/ to quickly generate all the different icon sizes and favicon.ico file.
-
-### Deployment
-
-You can deploy this using any number of services. Vercel and Netlify are the ones I prefer and very easy to setup and sync with your Github repo.
-
-### Credit
-
-The store was inspired by the awesome [Gatsby Swag Store](https://github.com/gatsbyjs/store.gatsbyjs.org "gatsby store") as well
-as countless other devs much more capable than me who put out their awesome work for free. 
-
-### License
-
-I have open sourced this code under the MIT License in the hope that if this helps people navigate their way around JAMStack eCommerce stores
-as the Gatsby Swag Store did for me when I first started out.
