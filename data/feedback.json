@@ -1,0 +1,106 @@
+[
+  {
+    "boardCode": "SAMPLE",
+    "imageId": "img-1773956510776-wbltx7",
+    "reaction": "like",
+    "comment": "Your comment goes here!",
+    "createdAt": "2026-03-19T21:42:18.468Z",
+    "updatedAt": "2026-03-19T21:42:20.348Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711546140-cp921j",
+    "reaction": "like",
+    "comment": "CHANGE SEATS",
+    "createdAt": "2026-03-28T15:35:00.505Z",
+    "updatedAt": "2026-03-28T15:37:30.156Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711559713-bevxpm",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:35:49.114Z",
+    "updatedAt": "2026-03-28T15:35:49.114Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711567214-qtv1be",
+    "reaction": "like",
+    "comment": "CHANGE LIGHTS",
+    "createdAt": "2026-03-28T15:36:07.565Z",
+    "updatedAt": "2026-03-28T15:36:07.565Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711573675-84o8qz",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:36:15.352Z",
+    "updatedAt": "2026-03-28T15:36:15.352Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711580377-0kbuxk",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:36:18.711Z",
+    "updatedAt": "2026-03-28T15:36:18.711Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711592209-gmku5y",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:36:41.230Z",
+    "updatedAt": "2026-03-28T15:36:41.230Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711597384-nd141i",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:36:43.831Z",
+    "updatedAt": "2026-03-28T15:36:43.831Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711607243-5nthpz",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:36:46.453Z",
+    "updatedAt": "2026-03-28T15:36:46.453Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711611816-1fj7rg",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:37:10.470Z",
+    "updatedAt": "2026-03-28T15:37:10.470Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711615888-506wrb",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:37:13.156Z",
+    "updatedAt": "2026-03-28T15:37:13.156Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "img-1774711630526-3deufg",
+    "reaction": "like",
+    "comment": "",
+    "createdAt": "2026-03-28T15:37:18.106Z",
+    "updatedAt": "2026-03-28T15:37:18.106Z"
+  },
+  {
+    "boardCode": "GYM-01",
+    "imageId": "__client_submit__",
+    "reaction": "submit",
+    "comment": "NICE WORK",
+    "createdAt": "2026-03-28T20:53:32.950Z",
+    "updatedAt": "2026-04-03T09:55:14.076Z"
+  }
+]

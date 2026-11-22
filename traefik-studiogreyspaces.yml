@@ -1,0 +1,33 @@
+# Grey Spaces (moodboard-ayush) — PM2 process "moodboard" on 127.0.0.1:3005
+# Host copy lives at traefik/dynamic/studiogreyspaces.yml and is loaded by Traefik's file provider.
+# Nginx alternative for the same upstream: nginx-studiogreyspaces.conf
+# Process manager: ecosystem.config.cjs
+http:
+  routers:
+    studiogreyspaces:
+      rule: "Host(`studiogreyspaces.com`)"
+      entryPoints:
+        - websecure
+      service: studiogreyspaces
+      tls:
+        certResolver: letsencrypt
+
+    studiogreyspaces-http:
+      rule: "Host(`studiogreyspaces.com`)"
+      entryPoints:
+        - web
+      service: studiogreyspaces
+      middlewares:
+        - studiogrey-redirect-to-https
+
+  services:
+    studiogreyspaces:
+      loadBalancer:
+        servers:
+          - url: "http://127.0.0.1:3005"
+
+  middlewares:
+    studiogrey-redirect-to-https:
+      redirectScheme:
+        scheme: https
+        permanent: true

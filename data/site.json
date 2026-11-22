@@ -1,0 +1,171 @@
+{
+  "seo": {
+    "title": "Grey Spaces — Architecture & Interiors",
+    "description": "Grey Spaces is an architecture and interior design studio creating calm, light-filled spaces that are built to last."
+  },
+  "brand": {
+    "name": "greyspaces",
+    "tagline": "where design meets balance",
+    "email": "mail@studiogreyspaces.com",
+    "phone": "",
+    "address": "",
+    "instagram": "https://www.instagram.com/greyspacesstudio?hvrq=MWJsaHZia2ViOTU4bw%3D%3D&utm_source=qr",
+    "linkedin": ""
+  },
+  "hero": {
+    "eyebrow": "where design meets balance",
+    "title": "greyspaces",
+    "subtitle": "Architecture I Interiors ",
+    "primaryCta": "Start a project",
+    "secondaryCta": "Explore the studio"
+  },
+  "chapters": [
+    {
+      "label": "Light",
+      "title": "Light is the first material.",
+      "architect": "After Tadao Ando",
+      "quote": "Bare concrete, a single cut, and the sun does the rest.",
+      "body": "We begin every project by studying how daylight enters, moves and leaves. Openings are placed with intent, so a room changes character from morning to dusk."
+    },
+    {
+      "label": "Less",
+      "title": "Less, but better.",
+      "architect": "Ludwig Mies van der Rohe",
+      "quote": "Less is more.",
+      "body": "A floating roof, a free plan and honest materials. We remove everything that does not serve the space, until what remains feels calm and complete."
+    },
+    {
+      "label": "Nature",
+      "title": "Built with the land, not on it.",
+      "architect": "After Frank Lloyd Wright",
+      "quote": "Study nature, love nature, stay close to nature.",
+      "body": "Terraces reach over water, stone rises from the ground. We let the site lead — its slope, its trees, its views — so the building belongs where it stands."
+    },
+    {
+      "label": "Flow",
+      "title": "Space in motion.",
+      "architect": "Zaha Hadid",
+      "quote": "There are 360 degrees, so why stick to one?",
+      "body": "Where a project calls for it, we let form move freely. Continuous surfaces guide people through space the way water finds its course."
+    }
+  ],
+  "finale": {
+    "quote": "Architecture is the thoughtful making of space.",
+    "author": "Louis Kahn",
+    "cta": "Begin your project"
+  },
+  "studio": {
+    "eyebrow": "The studio",
+    "title": "Recreating dream spaces that last.",
+    "body": "Grey Spaces is a design studio for architecture and interiors. From the first sketch to the final finish, one team carries your project with care — balancing beauty, budget and the way you actually live.",
+    "image": "/uploads/SITE/1795282660452-Gemini_Generated_Image_b4che0b4che0b4ch.webp",
+    "imageAlt": "Grey Spaces studio"
+  },
+  "services": {
+    "title": "What we do",
+    "intro": "Full-service design, from the shell of the building to the last detail inside.",
+    "items": [
+      {
+        "icon": "home",
+        "title": "Architecture",
+        "body": "New homes and buildings, from concept to construction drawings."
+      },
+      {
+        "icon": "sofa",
+        "title": "Interior design",
+        "body": "Complete interiors — layouts, materials, lighting and furniture."
+      },
+      {
+        "icon": "layers",
+        "title": "Renovation",
+        "body": "Thoughtful remodelling of kitchens, bathrooms and whole homes."
+      },
+      {
+        "icon": "leaf",
+        "title": "Landscape",
+        "body": "Gardens, courtyards and terraces that extend the living space."
+      }
+    ]
+  },
+  "stats": [],
+  "projects": {
+    "title": "Portfolio",
+    "intro": "A few of the spaces we have shaped.",
+    "items": [
+      {
+        "title": "Gold's gym, Hyderabad",
+        "location": "Hyderabad",
+        "category": "Interiors",
+        "year": "2026",
+        "image": "/uploads/SITE/1795282799356-Enscape_2026-05-08-01-23-28_GYM4.webp",
+        "summary": ""
+      },
+      {
+        "title": "Residence, Hapur",
+        "location": "Hapur",
+        "category": "Architecture I Interiors",
+        "year": "2026",
+        "image": "/uploads/SITE/1795283017962-Gemini_Generated_Image_5w1awb5w1awb5w1a-1.webp",
+        "summary": ""
+      },
+      {
+        "title": "Basi Pilates",
+        "location": "Various",
+        "category": "Interiors",
+        "year": "2026",
+        "image": "/uploads/SITE/1795283135273-Untitled-design-2.jpg",
+        "summary": ""
+      },
+      {
+        "title": "B.P. colony residence",
+        "location": "Delhi",
+        "category": "Architectural I Interiors",
+        "year": "2024",
+        "image": "/uploads/SITE/1795283311857-Enscape_2026-03-09-03-23-16_1.webp",
+        "summary": ""
+      }
+    ]
+  },
+  "process": {
+    "title": "How we work",
+    "steps": [
+      {
+        "title": "Listen",
+        "body": "We start with how you live, what you love and what the site offers."
+      },
+      {
+        "title": "Imagine",
+        "body": "Concepts, moodboards and 3D views until the direction feels right."
+      },
+      {
+        "title": "Refine",
+        "body": "Materials, details and drawings, resolved with you step by step."
+      },
+      {
+        "title": "Build",
+        "body": "We stay on site with you until the last finish is in place."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Clients about our work",
+    "items": []
+  },
+  "contact": {
+    "eyebrow": "Inquire",
+    "title": "Let’s bring your vision to life",
+    "body": "Tell us a little about your space. We will get back to you within two working days.",
+    "button": "Send",
+    "success": "Thank you — we will be in touch shortly."
+  },
+  "moodboard": {
+    "headlines": [
+      "Explore Your Design Vision",
+      "Your Space, Visualized",
+      "Step Into Your Future Space"
+    ],
+    "subtitle": "Review curated design concepts and share your thoughts effortlessly.",
+    "introTitle": "A quiet room for your taste",
+    "introBody": "A guided visual experience where you can explore design ideas and respond with what you love—simply, in your own words."
+  }
+}

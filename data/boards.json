@@ -1,0 +1,110 @@
+[
+  {
+    "id": "board-sample-default",
+    "projectName": "Greyspaces",
+    "name": "Sample Board",
+    "code": "SAMPLE",
+    "images": [
+      {
+        "id": "img-1773956510776-wbltx7",
+        "url": "/uploads/SAMPLE/1773956510769-ChatGPT-Image-Mar-10-2026-at-12_25_37-PM.png",
+        "title": "Sample image",
+        "description": "Please take this as a reference image. "
+      }
+    ],
+    "createdAt": "2026-03-19T00:00:00.000Z"
+  },
+  {
+    "id": "board-1774711903496-a4w6yv",
+    "projectName": "GOLDS GYM",
+    "name": "GOLDS GYM ,HYD",
+    "code": "GYM-01",
+    "images": [
+      {
+        "id": "img-1774711546140-cp921j",
+        "url": "/uploads/GYM-01/1774711546266-Enscape_2026-03-28-16-32-17_COMMON-AREA-1.png",
+        "title": "COMMON AREA",
+        "description": ""
+      },
+      {
+        "id": "img-1774711557503-4z7igb",
+        "url": "/uploads/GYM-01/1774711557600-Enscape_2026-03-28-16-32-17_COMMON-AREA-2.png",
+        "title": "COMMON AREA",
+        "description": ""
+      },
+      {
+        "id": "img-1774711559713-bevxpm",
+        "url": "/uploads/GYM-01/1774711559857-Enscape_2026-03-28-16-32-17_LOUNGE-1.png",
+        "title": "LOUNGE",
+        "description": ""
+      },
+      {
+        "id": "img-1774711567214-qtv1be",
+        "url": "/uploads/GYM-01/1774711567350-Enscape_2026-03-28-16-32-17_LOUNGE-2.png",
+        "title": "LOUNGE",
+        "description": ""
+      },
+      {
+        "id": "img-1774711573675-84o8qz",
+        "url": "/uploads/GYM-01/1774711573776-Enscape_2026-03-28-16-32-17_LOUNGE-3.png",
+        "title": "LOUNGE",
+        "description": ""
+      },
+      {
+        "id": "img-1774711580377-0kbuxk",
+        "url": "/uploads/GYM-01/1774711580192-Enscape_2026-03-28-16-32-17_LOUNGE-4.png",
+        "title": "LOUNGE",
+        "description": "PRIVATE PODS"
+      },
+      {
+        "id": "img-1774711586085-g1ey3s",
+        "url": "/uploads/GYM-01/1774711586069-Enscape_2026-03-28-16-32-17_LOUNGE-5.png",
+        "title": "LOUNGE",
+        "description": ""
+      },
+      {
+        "id": "img-1774711592209-gmku5y",
+        "url": "/uploads/GYM-01/1774711592266-Enscape_2026-03-28-16-32-17_LOUNGE.png",
+        "title": "LOUNGE",
+        "description": ""
+      },
+      {
+        "id": "img-1774711597384-nd141i",
+        "url": "/uploads/GYM-01/1774711597513-Enscape_2026-03-28-16-32-17_MEETING-1.png",
+        "title": "MEETING ROOM",
+        "description": ""
+      },
+      {
+        "id": "img-1774711607243-5nthpz",
+        "url": "/uploads/GYM-01/1774711607291-Enscape_2026-03-28-16-32-17_MEETING.png",
+        "title": "MEETING ROOM",
+        "description": ""
+      },
+      {
+        "id": "img-1774711615888-506wrb",
+        "url": "/uploads/GYM-01/1774711616034-Enscape_2026-03-28-16-32-17_MEZZANINE-2.png",
+        "title": "POSING ROOMS",
+        "description": ""
+      },
+      {
+        "id": "img-1774711619945-s9l6kp",
+        "url": "/uploads/GYM-01/1774711620089-Enscape_2026-03-28-16-32-17_POSING-STUDIO-2.png",
+        "title": "POSING ROOM",
+        "description": ""
+      },
+      {
+        "id": "img-1774711611816-1fj7rg",
+        "url": "/uploads/GYM-01/1774711611961-Enscape_2026-03-28-16-32-17_MEZZANINE-2.0.png",
+        "title": "POSING ROOMS",
+        "description": ""
+      },
+      {
+        "id": "img-1774711630526-3deufg",
+        "url": "/uploads/GYM-01/1774711630671-Enscape_2026-03-28-16-32-17_PRIVATE-CABIN.png",
+        "title": "PRIVATE PODS",
+        "description": ""
+      }
+    ],
+    "createdAt": "2026-03-28T15:31:43.496Z"
+  }
+]
